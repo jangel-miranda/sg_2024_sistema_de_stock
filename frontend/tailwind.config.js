@@ -14,7 +14,15 @@ module.exports = {
     current: 'currentColor',
     extend: {
       colors: {
-        // light mode
+        // tremor light mode
+        ui: {
+          background: "#DEE9FF",
+          text: '#48505E',
+          cardbg: '#F8F8F8',
+          //sidebar colors
+          sidebarbg: '#F2F4F7',
+          active: '#1366D9',
+        },
         tremor: {
           brand: {
             faint: '#F9BD9C', // <--- tremor-brand-faint, lighter shade of brand color
