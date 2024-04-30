@@ -38,11 +38,12 @@ const SidebarItem = ({ item } = { item: ISidebarItem }) => {
 
     return (
         <>
-            <div className={`flex item-center space-x-2 p-3 rounded-lg hover:bg-blue-100 cursor-pointer hover:text-ui-active ${isActive && "text-ui-active bg-blue-100"} ${isSubItem && "ml-3"}`}
+            <div className={`flex item-center p-3 m-1 rounded-lg hover:bg-blue-100 cursor-pointer hover:text-ui-active justify-between ${isSubItem && "ml-3"} ${isActive && "text-ui-active bg-blue-100"}`}
                 onClick={onClick}
-            >
+            >   <div className='flex space-x-2'>
                 <span className="material-symbols-outlined">{icon}</span>
                 <p>{name}</p>
+                </div>
                 {subItems && subItems.length > 0 && (
                     <span className={`material-symbols-outlined material-sm ${expanded ? "rotate-90" : ""}`}>chevron_right</span>
                 )}

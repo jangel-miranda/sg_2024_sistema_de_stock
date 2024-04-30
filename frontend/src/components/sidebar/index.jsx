@@ -6,25 +6,30 @@ import SidebarItem from './items'
 const Sidebar = () => {
 
   const menuItems = [
+    { name: 'Dashboard',
+    path: '/',
+    icon: 'space_dashboard',
+    subItems:[]},
+
     { name: 'Stock',
       path: '#',
       icon: 'storefront',
       subItems:[
         {
           name: 'Productos',
-          path: 'productos',
+          path: '/productos',
           icon: 'package_2',
           isSubItem : true,
         },
         {
           name: 'Movimientos',
-          path: 'movimientos',
+          path: '/movimientos',
           icon: 'compare_arrows',
           isSubItem : true,
         },
         {
           name: 'Depósitos',
-          path: 'depositos',
+          path: '/depositos',
           icon: 'package_2',
           isSubItem : true,
         }
