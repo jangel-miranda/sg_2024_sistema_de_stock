@@ -276,3 +276,11 @@ D:\1. UNI\6. Sexto Semestre\1. Sistemas de Gestión\Segunda cursada\Proyecto\sg_
 D:\1. UNI\6. Sexto Semestre\1. Sistemas de Gestión\Segunda cursada\Proyecto\sg_2024_sistema_de_stock\backend\api\obj\Debug\net8.0\staticwebassets.pack.json
 D:\1. UNI\6. Sexto Semestre\1. Sistemas de Gestión\Segunda cursada\Proyecto\sg_2024_sistema_de_stock\backend\api\obj\Debug\net8.0\scopedcss\bundle\api.styles.css
 D:\1. UNI\6. Sexto Semestre\1. Sistemas de Gestión\Segunda cursada\Proyecto\sg_2024_sistema_de_stock\backend\api\obj\Debug\net8.0\api.csproj.Up2Date
+D:\1. UNI\6. Sexto Semestre\1. Sistemas de Gestión\Segunda cursada\Proyecto\sg_2024_sistema_de_stock\backend\api\bin\Debug\net8.0\api.deps.json
+D:\1. UNI\6. Sexto Semestre\1. Sistemas de Gestión\Segunda cursada\Proyecto\sg_2024_sistema_de_stock\backend\api\bin\Debug\net8.0\api.runtimeconfig.json
+D:\1. UNI\6. Sexto Semestre\1. Sistemas de Gestión\Segunda cursada\Proyecto\sg_2024_sistema_de_stock\backend\api\bin\Debug\net8.0\api.dll
+D:\1. UNI\6. Sexto Semestre\1. Sistemas de Gestión\Segunda cursada\Proyecto\sg_2024_sistema_de_stock\backend\api\bin\Debug\net8.0\api.pdb
+D:\1. UNI\6. Sexto Semestre\1. Sistemas de Gestión\Segunda cursada\Proyecto\sg_2024_sistema_de_stock\backend\api\obj\Debug\net8.0\api.genruntimeconfig.cache
+D:\1. UNI\6. Sexto Semestre\1. Sistemas de Gestión\Segunda cursada\Proyecto\sg_2024_sistema_de_stock\backend\api\obj\Debug\net8.0\ref\api.dll
+D:\1. UNI\6. Sexto Semestre\1. Sistemas de Gestión\Segunda cursada\Proyecto\sg_2024_sistema_de_stock\backend\api\bin\Debug\net8.0\DotNetEnv.dll
+D:\1. UNI\6. Sexto Semestre\1. Sistemas de Gestión\Segunda cursada\Proyecto\sg_2024_sistema_de_stock\backend\api\bin\Debug\net8.0\Sprache.dll
