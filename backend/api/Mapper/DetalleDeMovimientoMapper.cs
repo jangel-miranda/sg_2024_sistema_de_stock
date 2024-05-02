@@ -15,8 +15,8 @@ namespace api.Mapper
             {
                 Id = detalleDeMovimientoModel.Id,
                 Cantidad = detalleDeMovimientoModel.Cantidad,
-                Fk_movimiento = detalleDeMovimientoModel.Fk_movimiento,
-                Fk_producto = detalleDeMovimientoModel.Fk_producto
+                Fk_movimiento = detalleDeMovimientoModel.MovimientoId,
+                Fk_producto = detalleDeMovimientoModel.ProductoId
             };
         }
     }

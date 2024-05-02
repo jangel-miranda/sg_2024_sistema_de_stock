@@ -17,7 +17,7 @@ namespace api.Data
 
         public DbSet<Deposito> Depositos { get; set; }
         public DbSet<Ferreteria> Ferreterias { get; set; }
-        public DbSet<Marcas> Marcas { get; set; }
+        public DbSet<Marca> Marcas { get; set; }
         public DbSet<Motivos> Motivos { get; set; }
         public DbSet<Movimiento> Movimientos { get; set; }
         public DbSet<Producto> Productos { get; set; }
@@ -29,13 +29,13 @@ namespace api.Data
             base.OnModelCreating(modelBuilder);
             
             modelBuilder.Entity<Movimiento>()
-                .HasOne(m => m.Deposito_origen)
+                .HasOne(m => m.Deposito_Destino)
                 .WithMany()
                 .HasForeignKey(m => m.Id)
                 .OnDelete(DeleteBehavior.Restrict); // Esto asegura que no se elimine en cascada si eliminas un depósito
 
             modelBuilder.Entity<Movimiento>()
-                .HasOne(m => m.Deposito_destino)
+                .HasOne(m => m.Deposito_Destino)
                 .WithMany()
                 .HasForeignKey(m => m.Id)
                 .OnDelete(DeleteBehavior.Restrict); // Esto asegura que no se elimine en cascada si eliminas un depósito
