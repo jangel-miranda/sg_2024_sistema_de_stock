@@ -5,13 +5,13 @@ using System.Threading.Tasks;
 
 namespace api.Models
 {
-    public class DetalleDeMovimientos
+    public class DetalleDeMovimiento
     {
         public int Id { get; set; }
         public int Cantidad { get; set; }
         public int? MovimientoId { get; set; }
         public Movimiento? Movimiento { get; set; }
-        public int? Fk_producto { get; set; }
+        public int? ProductoId { get; set; }
         public Producto? Producto { get; set; }
     }
 }

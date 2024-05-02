@@ -21,6 +21,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>{
 });
 
 builder.Services.AddScoped<IFerreteriaRepository, FerreteriaRepository>();
+builder.Services.AddScoped<IProductoRepository, ProductoRepository>();
 
 var app = builder.Build();
 
