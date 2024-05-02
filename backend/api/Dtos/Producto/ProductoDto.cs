@@ -13,8 +13,9 @@ namespace api.Dtos.Producto
         public string Str_ruta_imagen { get; set; } = String.Empty;
         public string Str_nombre { get; set; } = String.Empty;
         public string Str_descripcion { get; set; } = String.Empty;
-        public int? Fk_deposito { get; set; }
-        public int? Fk_proveedor { get; set; }
+        public int? DepositoId { get; set; }
+        public int? ProveedorId { get; set; }
+        public int? MarcaId { get; set; }
         public int Int_cantidad_actual { get; set; }
         public int Int_cantidad_minima { get; set; }
         public decimal Dec_costo_PPP { get; set; }
