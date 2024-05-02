@@ -140,3 +140,6 @@ C:\Users\nadad\OneDrive\Documentos\sg_2024_sistema_de_stock\backend\api\bin\Debu
 C:\Users\nadad\OneDrive\Documentos\sg_2024_sistema_de_stock\backend\api\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\Users\nadad\OneDrive\Documentos\sg_2024_sistema_de_stock\backend\api\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\nadad\OneDrive\Documentos\sg_2024_sistema_de_stock\backend\api\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+D:\1. UNI\6. Sexto Semestre\1. Sistemas de Gestión\Segunda cursada\Proyecto\sg_2024_sistema_de_stock\backend\api\obj\Debug\net8.0\api.dll
+D:\1. UNI\6. Sexto Semestre\1. Sistemas de Gestión\Segunda cursada\Proyecto\sg_2024_sistema_de_stock\backend\api\obj\Debug\net8.0\refint\api.dll
+D:\1. UNI\6. Sexto Semestre\1. Sistemas de Gestión\Segunda cursada\Proyecto\sg_2024_sistema_de_stock\backend\api\obj\Debug\net8.0\api.pdb
