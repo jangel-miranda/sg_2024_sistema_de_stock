@@ -1,11 +1,11 @@
 import Image from 'next/image'
  
-export default function Photo() {
+export default function Photo({ src }) {
   return (
     <Image
-      src="/profile.jpg"
-      width={500}
-      height={500}
+      src={src}
+      width={200}
+      height={200}
       alt="Picture of the author"
     />
   )
