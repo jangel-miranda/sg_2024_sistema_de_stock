@@ -8,6 +8,9 @@ import "./globals.css";
 import "./globalicons.css";
 import Sidebar from "@/components/sidebar";
 import Productos from './productos/page';
+import Dashboard from './page';
+import Movimientos from './movimientos/page';
+import Depositos from './depositos/page';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,6 +21,9 @@ export default function RootLayout({ children }) {
         <Routes>
           <Route path="/productos/detalle/:id" element={<Detalle />} />
           <Route path="/productos" element={<Productos />} />
+          <Route path="/" element={< Dashboard />} />
+          <Route path="/movimientos" element={< Movimientos />} />
+          <Route path="/depositos" element={< Depositos />} />
         </Routes>
         </Router>
       <body className={inter.className}>

@@ -3,8 +3,11 @@
 import React from "react";
 import Photo from "../../../components/productimg";
 import producto from "../../../../data.json";
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom'; // Importar Link desde react-router-dom
 import Sidebar from "@/components/sidebar";
+import { RiArrowLeftWideLine } from "@remixicon/react";
+import { Button } from "@tremor/react";
+
 
 
 
@@ -93,13 +96,12 @@ const Detalle = () => {
       <div className="flex h-screen w-full bg-ui-background p-2 text-ui-text">
         <Sidebar />
         <div className="flex flex-col w-full h-full p-5 rounded-lg bg-ui-cardbg">
-          <h1 className='mb-4 text-l font-semibold normal-case tracking-tight'>Detalles del producto</h1>
         
       <div className="container mx-auto">
         <nav className="text-sm" aria-label="Breadcrumb">
           <ol className="list-none p-0 inline-flex">
             <li className="flex items-center">
-              <span className="text-gray-500">Stock&gt; </span>
+            <Link to="/productos" className="text-gray-500"><RiArrowLeftWideLine></RiArrowLeftWideLine>Stock &gt; </Link>
             </li>
             <li className="flex items-center">
               <span className="text-gray-500">Detalles del producto</span>
@@ -177,5 +179,7 @@ const Detalle = () => {
     </div>
   );
 };
+
+//<Button><RiArrowLeftWideLine onClick={navigate('/productos')}></RiArrowLeftWideLine></Button>
 
 export default Detalle;
