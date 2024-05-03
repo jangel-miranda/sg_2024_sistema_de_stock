@@ -1,6 +1,12 @@
+'use client'
+
 import React from "react";
 import Photo from "../../../components/productimg";
 import producto from "../../../../data.json";
+import { useParams } from 'react-router-dom';
+import Sidebar from "@/components/sidebar";
+
+
 
 
 const Detalle = () => {
@@ -79,83 +85,95 @@ const Detalle = () => {
     },
   ];
 
-  return (
-    <div className="container mx-auto">
-      <nav className="text-sm" aria-label="Breadcrumb">
-  <ol className="list-none p-0 inline-flex">
-    <li className="flex items-center">
-      <span className="text-gray-500">Stock&gt; </span>
-    </li>
-    <li className="flex items-center">
-      <span className="text-gray-500">Detalles del producto</span>
-    </li>
-  </ol>
-</nav>
-      <div className=" grid grid-cols-3 mb-10">
-        <div>
-        </div>
-        <div>
-          <p>Codigo: {producto[0].id}</p>
-          <p>Nombre:{producto[0].nombre} </p>
-          <p>Descripcion: Foco LED A60 de 12W </p>
-          <p>Marca: Philips </p>
-          <p>Proveedor: Todo Luz S.A</p>
-          <p>Contacto: 0984 235701</p>
-        </div>
-        <div>
-          <p>Cantidad: 100</p>
-          <p>Cant.Mínima: 10</p>
-          <p>Costo: Gs. 15.000</p>
-          <p>IVA: 10%</p>
-          <p>Precio Mayorista: Gs. 20.000</p>
-          <p>Precio Minorista: 22.000</p>
-        </div>
-      </div>
-      <div className="flex justify-between items-center">
-  <span className="text-2xl mx-4 tracking-tight text-black">
-    Historial de producto
-  </span>
-</div>
+  let { id } = useParams(); // Obtener el ID del parámetro de la URL
+  id -= 1;
 
-      <table className="w-full">
-        <thead>
-          <tr>
-            <th className="text-left px-4 py-3">Fecha</th>
-            <th className="text-left px-4 py-3">Movimiento</th>
-            <th className="text-left px-4 py-3">Cantidad</th>
-            <th className="text-left px-4 py-3">Documento</th>
-            <th className="text-right px-4 py-3">Costo unitario</th>
-            <th className="text-left px-4 py-3">Origen</th>
-            <th className="text-left px-4 py-3">Destino</th>
-          </tr>
-        </thead>
-        <tbody>
-          {data.map((row) => (
-            <tr key={row.date}>
-              <td className="text-left px-4 py-3">{row.date}</td>
-              <td className="text-left px-4 py-3">{row.movement}</td>
-              <td className="text-left px-4 py-3">{row.quantity}</td>
-              <td className="text-left px-4 py-3">{row.document}</td>
-              <td className="text-right px-4 py-3">{row.unitCost}</td>
-              <td className="text-left px-4 py-3">{row.origin}</td>
-              <td className="text-left px-4 py-3">{row.destination}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
-      <div class="flex justify-center items-center mt-4">
-        <div class="flex justify-between items-center">
+  return (
+    <div>
+      <div className="flex h-screen w-full bg-ui-background p-2 text-ui-text">
+        <Sidebar />
+        <div className="flex flex-col w-full h-full p-5 rounded-lg bg-ui-cardbg">
+          <h1 className='mb-4 text-l font-semibold normal-case tracking-tight'>Detalles del producto</h1>
+        
+      <div className="container mx-auto">
+        <nav className="text-sm" aria-label="Breadcrumb">
+          <ol className="list-none p-0 inline-flex">
+            <li className="flex items-center">
+              <span className="text-gray-500">Stock&gt; </span>
+            </li>
+            <li className="flex items-center">
+              <span className="text-gray-500">Detalles del producto</span>
+            </li>
+          </ol>
+        </nav>
+        <div className=" grid grid-cols-3 mb-10">
           <div>
-            <button class="text-blue-500 hover:text-blue-700 mr-2">
-              &lt; Anterior
-            </button>
-            <span class="mr-2">Página 1 de 10</span>
-            <button class="text-blue-500 hover:text-blue-700">
-              Siguiente&gt;
-            </button>
+          </div>
+          <div>
+            <p>Codigo: {producto[id].id}</p>
+            <p>Nombre:{producto[id].nombre} </p>
+            <p>Descripcion: {producto[id].descripcion} </p>
+            <p>Marca: {producto[id].marca} </p>
+            <p>Proveedor: {producto[id].proveedor}</p>
+            <p>Contacto: 0984 235701</p>
+          </div>
+          <div>
+            <p>Cantidad: 100</p>
+            <p>Cant.Mínima: 10</p>
+            <p>Costo: {producto[id].costo}</p>
+            <p>IVA: 10%</p>
+            <p>Precio Mayorista: {producto[id].precio_mayorisa}</p>
+            <p>Precio Minorista: {producto[id].precio_minorista}</p>
+          </div>
+        </div>
+        <div className="flex justify-between items-center">
+          <span className="text-2xl mx-4 tracking-tight text-black">
+            Historial de producto
+          </span>
+        </div>
+
+        <table className="w-full">
+          <thead>
+            <tr>
+              <th className="text-left px-4 py-3">Fecha</th>
+              <th className="text-left px-4 py-3">Movimiento</th>
+              <th className="text-left px-4 py-3">Cantidad</th>
+              <th className="text-left px-4 py-3">Documento</th>
+              <th className="text-right px-4 py-3">Costo unitario</th>
+              <th className="text-left px-4 py-3">Origen</th>
+              <th className="text-left px-4 py-3">Destino</th>
+            </tr>
+          </thead>
+          <tbody>
+            {data.map((row) => (
+              <tr key={row.date}>
+                <td className="text-left px-4 py-3">{row.date}</td>
+                <td className="text-left px-4 py-3">{row.movement}</td>
+                <td className="text-left px-4 py-3">{row.quantity}</td>
+                <td className="text-left px-4 py-3">{row.document}</td>
+                <td className="text-right px-4 py-3">{row.unitCost}</td>
+                <td className="text-left px-4 py-3">{row.origin}</td>
+                <td className="text-left px-4 py-3">{row.destination}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+        <div className="flex justify-center items-center mt-4">
+          <div className="flex justify-between items-center">
+            <div>
+              <button className="text-blue-500 hover:text-blue-700 mr-2">
+                &lt; Anterior
+              </button>
+              <span className="mr-2">Página 1 de 10</span>
+              <button className="text-blue-500 hover:text-blue-700">
+                Siguiente&gt;
+              </button>
+            </div>
           </div>
         </div>
       </div>
+    </div>
+    </div>
     </div>
   );
 };

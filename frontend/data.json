@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": "1",
     "nombre": "Martillo",
     "descripcion": "Martillo de 16 onzas con mango de madera",
     "marca": "HerramientasPlus",
@@ -13,7 +13,7 @@
     "img_url": "https://ejemplo.com/martillo.jpg"
   },
   {
-    "id": 2,
+    "id": "2",
     "nombre": "Destornillador Phillips",
     "descripcion": "Destornillador de punta Phillips con mango ergonómico",
     "marca": "HerramientasPlus",
@@ -26,7 +26,7 @@
     "img_url": "https://ejemplo.com/destornillador.jpg"
   },
   {
-    "id": 3,
+    "id": "3",
     "nombre": "Llave ajustable",
     "descripcion": "Llave ajustable de 10 pulgadas de acero cromado",
     "marca": "ToolMaster",
@@ -39,7 +39,7 @@
     "img_url": "https://ejemplo.com/llave.jpg"
   },
   {
-    "id": 4,
+    "id": "4",
     "nombre": "Sierra eléctrica",
     "descripcion": "Sierra circular de 12 pulgadas con motor de 1500W",
     "marca": "PowerCut",
@@ -52,7 +52,7 @@
     "img_url": "https://ejemplo.com/sierra.jpg"
   },
   {
-    "id": 5,
+    "id": "5",
     "nombre": "Clavos galvanizados",
     "descripcion": "Clavos de 3 pulgadas galvanizados en caja de 1kg",
     "marca": "FerreClavos",
@@ -65,7 +65,7 @@
     "img_url": "https://ejemplo.com/clavos.jpg"
   },
   {
-    "id": 6,
+    "id": "6",
     "nombre": "Cinta métrica",
     "descripcion": "Cinta métrica de 5 metros con carcasa resistente",
     "marca": "ToolMaster",
@@ -78,7 +78,7 @@
     "img_url": "https://ejemplo.com/cinta.jpg"
   },
   {
-    "id": 7,
+    "id": "7",
     "nombre": "Escuadra metálica",
     "descripcion": "Escuadra metálica de 30 centímetros",
     "marca": "MetalSquare",
@@ -91,7 +91,7 @@
     "img_url": "https://ejemplo.com/escuadra.jpg"
   },
   {
-    "id": 8,
+    "id": "8",
     "nombre": "Broca para madera",
     "descripcion": "Broca de 8mm para taladro de impacto",
     "marca": "HerramientasPlus",
@@ -104,7 +104,7 @@
     "img_url": "https://ejemplo.com/broca.jpg"
   },
   {
-    "id": 9,
+    "id": "9",
     "nombre": "Pala de jardín",
     "descripcion": "Pala de jardín con mango de madera y pala de acero inoxidable",
     "marca": "GardenMaster",
@@ -117,7 +117,7 @@
     "img_url": "https://ejemplo.com/pala.jpg"
   },
   {
-    "id": 10,
+    "id": "10",
     "nombre": "Taladro inalámbrico",
     "descripcion": "Taladro inalámbrico de 18V con batería de litio",
     "marca": "PowerDrill",
@@ -130,7 +130,7 @@
     "img_url": "https://ejemplo.com/taladro.jpg"
   },
   {
-    "id": 11,
+    "id": "11",
     "nombre": "Serrucho para podar",
     "descripcion": "Serrucho plegable para poda de árboles",
     "marca": "GardenMaster",
@@ -143,7 +143,7 @@
     "img_url": "https://ejemplo.com/serrucho.jpg"
   },
   {
-    "id": 12,
+    "id": "12",
     "nombre": "Lámpara de trabajo LED",
     "descripcion": "Lámpara portátil recargable con luz LED",
     "marca": "WorkLight",
@@ -156,7 +156,7 @@
     "img_url": "https://ejemplo.com/lampara.jpg"
   },
   {
-    "id": 13,
+    "id": "13",
     "nombre": "Nivel láser",
     "descripcion": "Nivel láser autonivelante con trípode",
     "marca": "LaserLevel",
@@ -169,7 +169,7 @@
     "img_url": "https://ejemplo.com/nivel.jpg"
   },
   {
-    "id": 14,
+    "id": "14",
     "nombre": "Alicate de corte",
     "descripcion": "Alicate de corte diagonal de 6 pulgadas",
     "marca": "CutMaster",
@@ -182,7 +182,7 @@
     "img_url": "https://ejemplo.com/alicate.jpg"
   },
   {
-    "id": 15,
+    "id": "15",
     "nombre": "Brocha para pintura",
     "descripcion": "Brocha de cerdas naturales para pintura",
     "marca": "PaintBrush",
