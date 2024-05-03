@@ -23,10 +23,12 @@ import {
   TableRoot,
   TableRow,
   Button,
+  TextInput,
 } from "@tremor/react"
 
 import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom'; 
+import { Input } from 'postcss';
 
 function DataTable() {
   const navigate = useNavigate();  // Llama al hook useNavigate para obtener la función navigate
@@ -91,17 +93,21 @@ function DataTable() {
 
 
   const [sorting, setSorting] = useState([])
+  const [filtering, setFiltering] = useState('')
 
   const table = useReactTable({ data, columns, getCoreRowModel: getCoreRowModel(), getPaginationRowModel: getPaginationRowModel(), getSortedRowModel: getSortedRowModel(),
     getFilteredRowModel: getFilteredRowModel(),
   state: {
-    sorting
+    sorting,
+    globalFilter: filtering
   },
-  onSortingChange: setSorting
+  onSortingChange: setSorting,
+  onGlobalFilterChange: setFiltering
 });
 
   return (
     <div>
+      <TextInput className='max-w-sm' placeholder='Buscar por nombre, marca, proveedor, deposito, cantidad...' onChange={(e)=> setFiltering(e.target.value)}></TextInput>
       <Table className='my-5'>
         <TableHead>
           {table.getHeaderGroups().map((headerGroup) => (
