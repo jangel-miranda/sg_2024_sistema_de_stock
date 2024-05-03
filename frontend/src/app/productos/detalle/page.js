@@ -110,6 +110,7 @@ const Detalle = () => {
         </nav>
         <div className=" grid grid-cols-3 mb-10">
           <div>
+            <Photo src={producto[id].img_url}></Photo>
           </div>
           <div>
             <p>Codigo: {producto[id].id}</p>

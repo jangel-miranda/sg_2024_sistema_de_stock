@@ -2,7 +2,7 @@
   {
     "id": "1",
     "nombre": "Martillo",
-    "descripcion": "Martillo de 16 onzas con mango de madera",
+    "descripcion": "16 onzas con mango de madera",
     "marca": "HerramientasPlus",
     "proveedor": "Ferretería ABC",
     "cantidad": 100,
@@ -10,12 +10,12 @@
     "costo": 15000,
     "precio_mayorista": 18000,
     "precio_minorista": 22000,
-    "img_url": "https://ejemplo.com/martillo.jpg"
+    "img_url": "/martillo.jpeg"
   },
   {
     "id": "2",
     "nombre": "Destornillador Phillips",
-    "descripcion": "Destornillador de punta Phillips con mango ergonómico",
+    "descripcion": "Punta Phillips con mango ergonómico",
     "marca": "HerramientasPlus",
     "proveedor": "Ferretería ABC",
     "cantidad": 75,
@@ -23,12 +23,12 @@
     "costo": 12000,
     "precio_mayorista": 15000,
     "precio_minorista": 18000,
-    "img_url": "https://ejemplo.com/destornillador.jpg"
+    "img_url": "/destornillador.jpeg"
   },
   {
     "id": "3",
     "nombre": "Llave ajustable",
-    "descripcion": "Llave ajustable de 10 pulgadas de acero cromado",
+    "descripcion": "De 10 pulgadas de acero cromado",
     "marca": "ToolMaster",
     "proveedor": "Ferretería 123",
     "cantidad": 50,
@@ -36,12 +36,12 @@
     "costo": 20000,
     "precio_mayorista": 25000,
     "precio_minorista": 30000,
-    "img_url": "https://ejemplo.com/llave.jpg"
+    "img_url": "/llaveaj.jpeg"
   },
   {
     "id": "4",
     "nombre": "Sierra eléctrica",
-    "descripcion": "Sierra circular de 12 pulgadas con motor de 1500W",
+    "descripcion": "De 12 pulgadas con motor de 1500W",
     "marca": "PowerCut",
     "proveedor": "Distribuidora Zeta",
     "cantidad": 30,
@@ -54,7 +54,7 @@
   {
     "id": "5",
     "nombre": "Clavos galvanizados",
-    "descripcion": "Clavos de 3 pulgadas galvanizados en caja de 1kg",
+    "descripcion": "De 3 pulgadas galvanizados en caja de 1kg",
     "marca": "FerreClavos",
     "proveedor": "Ferretería Beta",
     "cantidad": 200,
@@ -80,7 +80,7 @@
   {
     "id": "7",
     "nombre": "Escuadra metálica",
-    "descripcion": "Escuadra metálica de 30 centímetros",
+    "descripcion": "30 centímetros",
     "marca": "MetalSquare",
     "proveedor": "Ferretería Delta",
     "cantidad": 150,
@@ -93,7 +93,7 @@
   {
     "id": "8",
     "nombre": "Broca para madera",
-    "descripcion": "Broca de 8mm para taladro de impacto",
+    "descripcion": "8mm para taladro de impacto",
     "marca": "HerramientasPlus",
     "proveedor": "Ferretería ABC",
     "cantidad": 90,
@@ -106,7 +106,7 @@
   {
     "id": "9",
     "nombre": "Pala de jardín",
-    "descripcion": "Pala de jardín con mango de madera y pala de acero inoxidable",
+    "descripcion": "Mango de madera y pala de acero inoxidable",
     "marca": "GardenMaster",
     "proveedor": "Ferretería Beta",
     "cantidad": 40,
@@ -119,7 +119,7 @@
   {
     "id": "10",
     "nombre": "Taladro inalámbrico",
-    "descripcion": "Taladro inalámbrico de 18V con batería de litio",
+    "descripcion": "18V con batería de litio",
     "marca": "PowerDrill",
     "proveedor": "Distribuidora Zeta",
     "cantidad": 20,
@@ -132,7 +132,7 @@
   {
     "id": "11",
     "nombre": "Serrucho para podar",
-    "descripcion": "Serrucho plegable para poda de árboles",
+    "descripcion": "Plegable para poda de árboles",
     "marca": "GardenMaster",
     "proveedor": "Ferretería Beta",
     "cantidad": 60,
@@ -145,7 +145,7 @@
   {
     "id": "12",
     "nombre": "Lámpara de trabajo LED",
-    "descripcion": "Lámpara portátil recargable con luz LED",
+    "descripcion": "Portátil recargable con luz LED",
     "marca": "WorkLight",
     "proveedor": "Ferretería 123",
     "cantidad": 25,
@@ -158,7 +158,7 @@
   {
     "id": "13",
     "nombre": "Nivel láser",
-    "descripcion": "Nivel láser autonivelante con trípode",
+    "descripcion": "Autonivelante con trípode",
     "marca": "LaserLevel",
     "proveedor": "Ferretería ABC",
     "cantidad": 35,
@@ -171,7 +171,7 @@
   {
     "id": "14",
     "nombre": "Alicate de corte",
-    "descripcion": "Alicate de corte diagonal de 6 pulgadas",
+    "descripcion": "Diagonal de 6 pulgadas",
     "marca": "CutMaster",
     "proveedor": "Ferretería Delta",
     "cantidad": 80,
@@ -184,7 +184,7 @@
   {
     "id": "15",
     "nombre": "Brocha para pintura",
-    "descripcion": "Brocha de cerdas naturales para pintura",
+    "descripcion": "Cerdas naturales para pintura",
     "marca": "PaintBrush",
     "proveedor": "Ferretería Beta",
     "cantidad": 120,
