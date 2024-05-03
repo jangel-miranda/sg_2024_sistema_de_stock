@@ -28,6 +28,6 @@ namespace api.Controllers
             var ferreterias = await _context.Ferreterias.ToListAsync();
             var ferreteriaDto = ferreterias.Select(f => f.ToFerreteriaDto());
             return Ok(ferreteriaDto);
-        }
+        } 
     }
 }
