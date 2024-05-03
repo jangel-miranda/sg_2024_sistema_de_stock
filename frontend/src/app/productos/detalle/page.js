@@ -99,9 +99,9 @@ const Detalle = () => {
         
       <div className="container mx-auto">
         <nav className="text-sm" aria-label="Breadcrumb">
-          <ol className="list-none p-0 inline-flex">
+          <ol className="list-none p-0 inline-flex space-x-1">
             <li className="flex items-center">
-            <Link to="/productos" className="text-gray-500"><RiArrowLeftWideLine></RiArrowLeftWideLine>Stock &gt; </Link>
+            <Link to="/productos" className="text-gray-500"> &lt; Stock &gt; </Link>
             </li>
             <li className="flex items-center">
               <span className="text-gray-500">Detalles del producto</span>

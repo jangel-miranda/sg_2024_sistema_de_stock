@@ -7,6 +7,7 @@ import {
   getPaginationRowModel,
   useReactTable,
   getSortedRowModel,
+  getFilteredRowModel
 
 } from "@tanstack/react-table"
 import { useMemo, useState, getRowProps } from 'react';
@@ -92,6 +93,7 @@ function DataTable() {
   const [sorting, setSorting] = useState([])
 
   const table = useReactTable({ data, columns, getCoreRowModel: getCoreRowModel(), getPaginationRowModel: getPaginationRowModel(), getSortedRowModel: getSortedRowModel(),
+    getFilteredRowModel: getFilteredRowModel(),
   state: {
     sorting
   },
