@@ -1,4 +1,7 @@
 import React from "react";
+import Photo from "../../../components/productimg";
+import producto from "../../../../data.json";
+
 
 const Detalle = () => {
   const data = [
@@ -90,11 +93,10 @@ const Detalle = () => {
 </nav>
       <div className=" grid grid-cols-3 mb-10">
         <div>
-          <img></img>
         </div>
         <div>
-          <p>Codigo: P0025</p>
-          <p>Nombre:Foco LED </p>
+          <p>Codigo: {producto[0].id}</p>
+          <p>Nombre:{producto[0].nombre} </p>
           <p>Descripcion: Foco LED A60 de 12W </p>
           <p>Marca: Philips </p>
           <p>Proveedor: Todo Luz S.A</p>
@@ -113,14 +115,6 @@ const Detalle = () => {
   <span className="text-2xl mx-4 tracking-tight text-black">
     Historial de producto
   </span>
-  <div>
-    <button className="bg-white text-gray-800 hover:bg-gray-300 hover:text-gray-900 py-2 px-4 rounded border">
-      Filtrar
-    </button>
-    <button className="bg-white text-gray-800 hover:bg-gray-300 hover:text-gray-900 py-2 px-4 rounded border mx-10">
-      Descargar Todo
-    </button>
-  </div>
 </div>
 
       <table className="w-full">

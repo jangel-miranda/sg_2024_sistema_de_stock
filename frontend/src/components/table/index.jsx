@@ -10,7 +10,7 @@ import {
 
 } from "@tanstack/react-table"
 import { useMemo, useState } from 'react';
-import data from './data.json';
+import data from '../../../data.json';
 import {
   Table,
   TableBody,

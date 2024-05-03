@@ -10,7 +10,6 @@ const Productos = () => {
       <div className='mt-8 flex items-center justify-end space-x-2'>
       <Button variant="primary" color='blue'>Nuevo Producto</Button>
       </div>
-      <Photo></Photo>
       <div><DataTable/></div>
     </div>
   )
