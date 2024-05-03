@@ -11,15 +11,18 @@
   "dependencies": {
     "@headlessui/react": "^1.7.19",
     "@remixicon/react": "^4.2.0",
+    "@tanstack/react-table": "^8.16.0",
     "@tremor/react": "^3.16.1",
     "next": "14.2.3",
     "react": "^18",
     "react-dom": "^18"
   },
   "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
     "@tailwindcss/forms": "^0.5.7",
     "eslint": "^8",
     "eslint-config-next": "14.2.3",
+    "faker": "^5.5.3",
     "postcss": "^8",
     "tailwindcss": "^3.4.3"
   }

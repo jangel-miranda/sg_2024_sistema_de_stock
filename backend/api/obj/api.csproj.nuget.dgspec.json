@@ -1,33 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\1. UNI\\6. Sexto Semestre\\1. Sistemas de Gestión\\Segunda cursada\\Proyecto\\sg_2024_sistema_de_stock\\backend\\api\\api.csproj": {}
+    "C:\\Users\\gisse\\OneDrive\\Documents\\GitHub\\sg_2024_sistema_de_stock\\backend\\api\\api.csproj": {}
   },
   "projects": {
-    "D:\\1. UNI\\6. Sexto Semestre\\1. Sistemas de Gestión\\Segunda cursada\\Proyecto\\sg_2024_sistema_de_stock\\backend\\api\\api.csproj": {
+    "C:\\Users\\gisse\\OneDrive\\Documents\\GitHub\\sg_2024_sistema_de_stock\\backend\\api\\api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\1. UNI\\6. Sexto Semestre\\1. Sistemas de Gestión\\Segunda cursada\\Proyecto\\sg_2024_sistema_de_stock\\backend\\api\\api.csproj",
+        "projectUniqueName": "C:\\Users\\gisse\\OneDrive\\Documents\\GitHub\\sg_2024_sistema_de_stock\\backend\\api\\api.csproj",
         "projectName": "api",
-        "projectPath": "D:\\1. UNI\\6. Sexto Semestre\\1. Sistemas de Gestión\\Segunda cursada\\Proyecto\\sg_2024_sistema_de_stock\\backend\\api\\api.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "D:\\1. UNI\\6. Sexto Semestre\\1. Sistemas de Gestión\\Segunda cursada\\Proyecto\\sg_2024_sistema_de_stock\\backend\\api\\obj\\",
+        "projectPath": "C:\\Users\\gisse\\OneDrive\\Documents\\GitHub\\sg_2024_sistema_de_stock\\backend\\api\\api.csproj",
+        "packagesPath": "C:\\Users\\gisse\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gisse\\OneDrive\\Documents\\GitHub\\sg_2024_sistema_de_stock\\backend\\api\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\gisse\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
