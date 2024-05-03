@@ -4709,31 +4709,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\nadad\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\gisse\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nadad\\OneDrive\\Documentos\\sg_2024_sistema_de_stock\\backend\\api\\api.csproj",
+      "projectUniqueName": "C:\\Users\\gisse\\OneDrive\\Documents\\GitHub\\sg_2024_sistema_de_stock\\backend\\api\\api.csproj",
       "projectName": "api",
-      "projectPath": "C:\\Users\\nadad\\OneDrive\\Documentos\\sg_2024_sistema_de_stock\\backend\\api\\api.csproj",
-      "packagesPath": "C:\\Users\\nadad\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nadad\\OneDrive\\Documentos\\sg_2024_sistema_de_stock\\backend\\api\\obj\\",
+      "projectPath": "C:\\Users\\gisse\\OneDrive\\Documents\\GitHub\\sg_2024_sistema_de_stock\\backend\\api\\api.csproj",
+      "packagesPath": "C:\\Users\\gisse\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\gisse\\OneDrive\\Documents\\GitHub\\sg_2024_sistema_de_stock\\backend\\api\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\nadad\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\gisse\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4805,7 +4798,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
