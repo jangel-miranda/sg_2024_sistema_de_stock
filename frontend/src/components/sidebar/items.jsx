@@ -2,6 +2,8 @@
 
 import { usePathname, useRouter } from 'next/navigation';
 import React, { useMemo, useState } from 'react'
+import { useNavigate } from 'react-router-dom';
+
 
 class ISidebarItem {
     name = "";
@@ -18,14 +20,16 @@ class ISubItem {
 }
 
 const SidebarItem = ({ item } = { item: ISidebarItem }) => {
+    const navigate = useNavigate();
     const { name, icon: icon, subItems, path, isSubItem } = item;
     const [expanded, setExpanded] = useState(false);
     const router = useRouter();
     const pathname = usePathname();
 
+   
 
     const onClick = () => {
-        path !== '#' && router.push(path);
+        path !== '#' && navigate(item.path);
         if (subItems && subItems.length > 0)
             return setExpanded(!expanded);
     };

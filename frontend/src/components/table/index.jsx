@@ -7,10 +7,11 @@ import {
   getPaginationRowModel,
   useReactTable,
   getSortedRowModel,
+  getFilteredRowModel
 
 } from "@tanstack/react-table"
-import { useMemo, useState } from 'react';
-import data from './data.json';
+import { useMemo, useState, getRowProps } from 'react';
+import data from '../../../data.json';
 import {
   Table,
   TableBody,
@@ -24,7 +25,11 @@ import {
   Button,
 } from "@tremor/react"
 
+import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom'; 
+
 function DataTable() {
+  const navigate = useNavigate();  // Llama al hook useNavigate para obtener la función navigate
 
   const columns = [
     {
@@ -88,6 +93,7 @@ function DataTable() {
   const [sorting, setSorting] = useState([])
 
   const table = useReactTable({ data, columns, getCoreRowModel: getCoreRowModel(), getPaginationRowModel: getPaginationRowModel(), getSortedRowModel: getSortedRowModel(),
+    getFilteredRowModel: getFilteredRowModel(),
   state: {
     sorting
   },
@@ -116,10 +122,14 @@ function DataTable() {
         <TableBody>
           {
             table.getRowModel().rows.map((row) => (
-              <TableRow key={row.id}>
+              <TableRow key={row.id} {...row.getRowProps} >
                 {row.getVisibleCells().map((cell) => (
-                  <TableCell className='p-2'>{
-                    flexRender(cell.column.columnDef.cell, cell.getContext())}</TableCell>
+                  <TableCell className='p-2'>
+                    <Link to={`/productos/detalle/${row.original.id}`}>{
+                    flexRender(cell.column.columnDef.cell, cell.getContext())}
+                    </Link>
+                    </TableCell>
+                    
                 ))}
               </TableRow>
             ))}
