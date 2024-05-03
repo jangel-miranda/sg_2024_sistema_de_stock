@@ -2,7 +2,7 @@ import React from 'react'
 
 const Movimientos = () => {
   return (
-    <div>Movimientos</div>
+    <h1 className='mb-4 text-l font-semibold normal-case tracking-tight'>Movimientos</h1> 
   )
 }
 
